@@ -8,7 +8,7 @@ Feature: Validating the Bus Booking functionality
 
   Scenario Outline: Searching the available Buses
     Given Enter the Source <source> and Destination <destination>
-    Given Enter Source and Destination from Excel file
+#    Given Enter Source and Destination from Excel file
     And Select the required Date <date>
     When Click the Search buses option
     Then Verify if the results are fetched

@@ -14,8 +14,8 @@ Feature: Validating the Bus Booking functionality
     Then Verify if the results are fetched
 
     Examples:
-      | source   | destination | date |
-      | Kotagiri | Chennai     | 30   |
+      | source | destination | date |
+      | Ooty   | Chennai     | 30   |
 
   Scenario: Analysing the Search result
     Given Collect the Bus list
